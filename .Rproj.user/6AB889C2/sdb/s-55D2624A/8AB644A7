@@ -1,0 +1,17 @@
+{
+    "contents" : "dbwrite <-\nfunction(database, name, object)\n{\n UseMethod(\"dbwrite\")\n}\n\ndbobjects <-\nfunction(database)\n{\n UseMethod(\"dbobjects\")\n}\n\n\ndbread <-\nfunction(database, name, na = TRUE)\n{\n UseMethod(\"dbread\")\n}\n\ndbexists <-\nfunction(database, name)\n{\n UseMethod(\"dbexists\")\n}\n\ndbremove <-\nfunction(database, name)\n{\n UseMethod(\"dbremove\")\n}\n\ndbcanCache <-\nfunction(database, name)\n{\n UseMethod(\"dbcanCache\")\n}\n\ndbattach <-\nfunction(database)\n{\n UseMethod(\"dbattach\")\n}\n\ndbdetach <-\nfunction(database)\n{\n UseMethod(\"dbdetach\")\n}\n\n\ndbwrite.default <- function(database, name, object) {stop(\"no method\")}\ndbread.default <- function(database, name, na=TRUE) {stop(\"no method\")}\ndbexists.default <- function(database, name) {stop(\"no method\")}\ndbremove.default <- function(database, name) {stop(\"no method\")}\ndbobjects.default <- function(database) {stop(\"no method\")}\ndbcanCache.default <- function(database, name) {FALSE}\ndbattach.default <- function(database) {TRUE}\ndbdetach.default <- function(database) {TRUE}\n",
+    "created" : 1429056306365.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1268776781",
+    "id" : "8AB644A7",
+    "lastKnownWriteTime" : 1342806373,
+    "path" : "~/RObjectTables/R/db.S",
+    "project_path" : "R/db.S",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

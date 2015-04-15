@@ -1,0 +1,17 @@
+{
+    "contents" : "unbound <-\nfunction()\n{\n  .Call(\"R_getUnboundValue\", PACKAGE=\"RObjectTables\")\n}\n\n.First.lib <-\nfunction(libname, pkgname)\n{\n library.dynam(\"RObjectTables\", pkgname, libname)\n}\n\n\nsetMethod(\"cacheMetaData\", \"UserDefinedDatabase\", function(where, attach = TRUE) {cat(\"In method\\n\"); character(0)})\n\n",
+    "created" : 1429056311758.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1580535155",
+    "id" : "E9026EED",
+    "lastKnownWriteTime" : 1342806373,
+    "path" : "~/RObjectTables/R/zzz.R",
+    "project_path" : "R/zzz.R",
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

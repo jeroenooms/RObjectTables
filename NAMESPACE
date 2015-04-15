@@ -1,0 +1,9 @@
+useDynLib(RObjectTables)
+import(methods)
+exportPattern("^[^\\.]")
+S3method(dbobjects,DirectoryTable)
+S3method(dbread,DirectoryTable)
+S3method(dbwrite,DirectoryTable)
+S3method(dbexists,DirectoryTable)
+S3method(dbremove,DirectoryTable)
+

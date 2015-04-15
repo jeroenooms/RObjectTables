@@ -1,0 +1,17 @@
+{
+    "contents" : "useDynLib(RObjectTables)\nimport(methods)\nexportPattern(\"^[^\\\\.]\")\nS3method(dbobjects,DirectoryTable)\nS3method(dbread,DirectoryTable)\nS3method(dbwrite,DirectoryTable)\nS3method(dbexists,DirectoryTable)\nS3method(dbremove,DirectoryTable)\n\n",
+    "created" : 1429056624452.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3632798041",
+    "id" : "C1F6AE89",
+    "lastKnownWriteTime" : 1429057209,
+    "path" : "~/RObjectTables/NAMESPACE",
+    "project_path" : "NAMESPACE",
+    "properties" : {
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "type" : "r_namespace"
+}
