@@ -9,6 +9,7 @@
  */
 
 #include "RUserTables.h"
+#include <stdlib.h>
 
 SEXP
 R_getUnboundValue()

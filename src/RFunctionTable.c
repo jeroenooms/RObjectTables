@@ -6,6 +6,7 @@
  */
 
 #include "RUserTables.h"
+#include <stdlib.h>
 
 const char * const R_ObjectTable_FunNames[] = {
     "dbwrite", 
